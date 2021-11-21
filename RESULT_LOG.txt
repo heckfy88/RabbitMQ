@@ -1,0 +1,156 @@
+02:08:05.085 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+02:08:05.095 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+02:08:05.127 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.retailer.RetailerApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+02:08:05.139 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.retailer.RetailerApplicationTests], using SpringBootContextLoader
+02:08:05.142 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.retailer.RetailerApplicationTests]: class path resource [com/example/retailer/RetailerApplicationTests-context.xml] does not exist
+02:08:05.142 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.retailer.RetailerApplicationTests]: class path resource [com/example/retailer/RetailerApplicationTestsContext.groovy] does not exist
+02:08:05.143 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.retailer.RetailerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:08:05.143 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.retailer.RetailerApplicationTests]: RetailerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:08:05.181 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.retailer.RetailerApplicationTests]
+02:08:05.243 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\val\Downloads\Sprint-8-master\Sprint-8-master\message-system\target\classes\com\example\retailer\RetailerApplication.class]
+02:08:05.245 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.retailer.RetailerApplication for test class com.example.retailer.RetailerApplicationTests
+02:08:05.325 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.retailer.RetailerApplicationTests]: using defaults.
+02:08:05.325 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:08:05.340 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@402c4085, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6fa51cd4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2767e23c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@710c2b53, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5386659f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@14028087, org.springframework.test.context.transaction.TransactionalTestExecutionListener@cecf639, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1caa0244, org.springframework.test.context.event.EventPublishingTestExecutionListener@7ce026d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ce69770, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1750fbeb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b247367, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@268f106e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6e9a5ed8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7e057f43]
+02:08:05.344 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@59402b8f testClass = RetailerApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7188af83 testClass = RetailerApplicationTests, locations = '{}', classes = '{class com.example.retailer.RetailerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@71809907, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@158da8e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@12468a38, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6b81ce95, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@223d2c72, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@c39f790], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+02:08:05.357 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@59402b8f testClass = RetailerApplicationTests, testInstance = com.example.retailer.RetailerApplicationTests@2ab4bc72, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7188af83 testClass = RetailerApplicationTests, locations = '{}', classes = '{class com.example.retailer.RetailerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@71809907, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@158da8e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@12468a38, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6b81ce95, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@223d2c72, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@c39f790], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+02:08:05.380 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2021-11-22 02:08:05.655  INFO 16596 --- [           main] c.e.retailer.RetailerApplicationTests    : Starting RetailerApplicationTests using Java 1.8.0_301 on DESKTOP-NU7P83I with PID 16596 (started by val in C:\Users\val\Downloads\Sprint-8-master\Sprint-8-master\message-system)
+2021-11-22 02:08:05.657  INFO 16596 --- [           main] c.e.retailer.RetailerApplicationTests    : No active profile set, falling back to default profiles: default
+2021-11-22 02:08:06.339  INFO 16596 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-22 02:08:06.386  INFO 16596 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2021-11-22 02:08:06.980  INFO 16596 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-11-22 02:08:06.990  INFO 16596 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-22 02:08:06.990  INFO 16596 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-22 02:08:07.088  INFO 16596 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-22 02:08:07.088  INFO 16596 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1392 ms
+2021-11-22 02:08:07.126  INFO 16596 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-22 02:08:07.290  INFO 16596 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-22 02:08:07.297  INFO 16596 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-11-22 02:08:07.510  INFO 16596 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-22 02:08:07.562  INFO 16596 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-22 02:08:07.692  INFO 16596 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-22 02:08:07.791  INFO 16596 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-22 02:08:07.961  WARN 16596 --- [           main] org.hibernate.id.UUIDHexGenerator        : HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+Hibernate: drop table if exists item CASCADE
+Hibernate: drop table if exists order_info CASCADE
+Hibernate: drop table if exists orders CASCADE
+Hibernate: drop table if exists orders_items CASCADE
+Hibernate: create table item (id bigint not null, name varchar(255), primary key (id))
+Hibernate: create table order_info (order_id varchar(255) not null, signature varchar(255), status integer, primary key (order_id))
+Hibernate: create table orders (id CHAR(32) not null, address varchar(255), recipient varchar(255), primary key (id))
+Hibernate: create table orders_items (order_id CHAR(32) not null, items_id bigint not null)
+Hibernate: alter table orders_items add constraint UK_7qrg5pfgjon82yhgwfqrdijm5 unique (items_id)
+Hibernate: alter table orders_items add constraint FKpend8sfg922gwhn2d3n457khv foreign key (items_id) references item
+Hibernate: alter table orders_items add constraint FKij1wwgx6o198ubsx1oulpopem foreign key (order_id) references orders
+2021-11-22 02:08:08.201  INFO 16596 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-22 02:08:08.209  INFO 16596 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-22 02:08:08.997  WARN 16596 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-22 02:08:09.177 DEBUG 16596 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-22 02:08:09.258 DEBUG 16596 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2021-11-22 02:08:09.314 DEBUG 16596 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-22 02:08:09.325 DEBUG 16596 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-22 02:08:09.565  INFO 16596 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53737 (http) with context path ''
+2021-11-22 02:08:09.579  INFO 16596 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-11-22 02:08:09.628  INFO 16596 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1d226f27:0/SimpleConnection@395eb363 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53740]
+2021-11-22 02:08:09.632  INFO 16596 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (retailer) durable:false, auto-delete:true, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-11-22 02:08:09.678  INFO 16596 --- [           main] c.e.retailer.RetailerApplicationTests    : Started RetailerApplicationTests in 4.296 seconds (JVM running for 5.093)
+2021-11-22 02:08:09.767 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:53737/placeOrder
+2021-11-22 02:08:09.946 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-11-22 02:08:09.962 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Writing [Order(id=null, address=sample address, recipient=sample recipient, items=[Item(id=1, name=Sample item), Item(id=2, name=Another item)])] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2021-11-22 02:08:10.027  INFO 16596 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 02:08:10.027  INFO 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-22 02:08:10.027 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-11-22 02:08:10.027 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-11-22 02:08:10.027 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-11-22 02:08:10.028 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@76dc36e5
+2021-11-22 02:08:10.028 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1e258d3b
+2021-11-22 02:08:10.028 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-22 02:08:10.028  INFO 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-22 02:08:10.036 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/placeOrder", parameters={}
+2021-11-22 02:08:10.039 DEBUG 16596 --- [o-auto-1-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.retailer.endpoint.RetailEndpoint#placeOrder(Order)
+2021-11-22 02:08:10.064 DEBUG 16596 --- [o-auto-1-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Order(id=null, address=sample address, recipient=sample recipient, items=[Item(id=1, name=Sample ite (truncated)...]
+Hibernate: insert into orders (address, recipient, id) values (?, ?, ?)
+Hibernate: insert into item (name, id) values (?, ?)
+Hibernate: insert into item (name, id) values (?, ?)
+Hibernate: insert into orders_items (order_id, items_id) values (?, ?)
+Hibernate: insert into orders_items (order_id, items_id) values (?, ?)
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+Hibernate: insert into order_info (signature, status, order_id) values (?, ?, ?)
+2021-11-22 02:08:10.174 DEBUG 16596 --- [o-auto-1-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-22 02:08:10.175 DEBUG 16596 --- [o-auto-1-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [OrderInfo(orderId=4028b8817d44c1bf017d44c1c7ea0000, status=SENT, signature=byRuslan)]
+2021-11-22 02:08:10.180 DEBUG 16596 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-22 02:08:10.180 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2021-11-22 02:08:10.181 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.example.retailer.api.distributor.OrderInfo]
+2021-11-22 02:08:10.187 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:53737/view/4028b8817d44c1bf017d44c1c7ea0000
+2021-11-22 02:08:10.187 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-11-22 02:08:10.188 DEBUG 16596 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/view/4028b8817d44c1bf017d44c1c7ea0000", parameters={}
+2021-11-22 02:08:10.189 DEBUG 16596 --- [o-auto-1-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.retailer.endpoint.RetailEndpoint#viewOrder(String)
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+2021-11-22 02:08:10.203 DEBUG 16596 --- [o-auto-1-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-22 02:08:10.204 DEBUG 16596 --- [o-auto-1-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [OrderInfo(orderId=4028b8817d44c1bf017d44c1c7ea0000, status=SENT, signature=byRuslan)]
+2021-11-22 02:08:10.204 DEBUG 16596 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-22 02:08:10.204 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2021-11-22 02:08:10.204 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.example.retailer.api.distributor.OrderInfo]
+2021-11-22 02:08:10.517 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:53737/view/4028b8817d44c1bf017d44c1c7ea0000
+2021-11-22 02:08:10.517 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-11-22 02:08:10.518 DEBUG 16596 --- [o-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/view/4028b8817d44c1bf017d44c1c7ea0000", parameters={}
+2021-11-22 02:08:10.519 DEBUG 16596 --- [o-auto-1-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.retailer.endpoint.RetailEndpoint#viewOrder(String)
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+2021-11-22 02:08:10.520 DEBUG 16596 --- [o-auto-1-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-22 02:08:10.520 DEBUG 16596 --- [o-auto-1-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [OrderInfo(orderId=4028b8817d44c1bf017d44c1c7ea0000, status=SENT, signature=byRuslan)]
+2021-11-22 02:08:10.520 DEBUG 16596 --- [o-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-22 02:08:10.520 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2021-11-22 02:08:10.520 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.example.retailer.api.distributor.OrderInfo]
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+Hibernate: update order_info set signature=?, status=? where order_id=?
+2021-11-22 02:08:10.831 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:53737/view/4028b8817d44c1bf017d44c1c7ea0000
+2021-11-22 02:08:10.831 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-11-22 02:08:10.832 DEBUG 16596 --- [o-auto-1-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/view/4028b8817d44c1bf017d44c1c7ea0000", parameters={}
+2021-11-22 02:08:10.832 DEBUG 16596 --- [o-auto-1-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.retailer.endpoint.RetailEndpoint#viewOrder(String)
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+2021-11-22 02:08:10.834 DEBUG 16596 --- [o-auto-1-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-22 02:08:10.834 DEBUG 16596 --- [o-auto-1-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [OrderInfo(orderId=4028b8817d44c1bf017d44c1c7ea0000, status=CREATED, signature=e5552031d9a78634cd8dc5 (truncated)...]
+2021-11-22 02:08:10.834 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2021-11-22 02:08:10.834 DEBUG 16596 --- [o-auto-1-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-22 02:08:10.834 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.example.retailer.api.distributor.OrderInfo]
+2021-11-22 02:08:10.834 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:53737/view/4028b8817d44c1bf017d44c1c7ea0000
+2021-11-22 02:08:10.835 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-11-22 02:08:10.835 DEBUG 16596 --- [o-auto-1-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/view/4028b8817d44c1bf017d44c1c7ea0000", parameters={}
+2021-11-22 02:08:10.835 DEBUG 16596 --- [o-auto-1-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.retailer.endpoint.RetailEndpoint#viewOrder(String)
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+2021-11-22 02:08:10.837 DEBUG 16596 --- [o-auto-1-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-22 02:08:10.837 DEBUG 16596 --- [o-auto-1-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [OrderInfo(orderId=4028b8817d44c1bf017d44c1c7ea0000, status=CREATED, signature=e5552031d9a78634cd8dc5 (truncated)...]
+2021-11-22 02:08:10.837 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2021-11-22 02:08:10.837 DEBUG 16596 --- [o-auto-1-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-22 02:08:10.837 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.example.retailer.api.distributor.OrderInfo]
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+Hibernate: update order_info set signature=?, status=? where order_id=?
+2021-11-22 02:08:11.146 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:53737/view/4028b8817d44c1bf017d44c1c7ea0000
+2021-11-22 02:08:11.146 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-11-22 02:08:11.147 DEBUG 16596 --- [o-auto-1-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/view/4028b8817d44c1bf017d44c1c7ea0000", parameters={}
+2021-11-22 02:08:11.147 DEBUG 16596 --- [o-auto-1-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.retailer.endpoint.RetailEndpoint#viewOrder(String)
+Hibernate: select orderinfo0_.order_id as order_id1_1_0_, orderinfo0_.signature as signatur2_1_0_, orderinfo0_.status as status3_1_0_ from order_info orderinfo0_ where orderinfo0_.order_id=?
+2021-11-22 02:08:11.148 DEBUG 16596 --- [o-auto-1-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-22 02:08:11.148 DEBUG 16596 --- [o-auto-1-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [OrderInfo(orderId=4028b8817d44c1bf017d44c1c7ea0000, status=DELIVERED, signature=e5552031d9a78634cd8d (truncated)...]
+2021-11-22 02:08:11.149 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2021-11-22 02:08:11.149 DEBUG 16596 --- [o-auto-1-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-22 02:08:11.149 DEBUG 16596 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.example.retailer.api.distributor.OrderInfo]
+2021-11-22 02:08:11.167  INFO 16596 --- [ionShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-11-22 02:08:12.071  INFO 16596 --- [ionShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-11-22 02:08:12.166  INFO 16596 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-22 02:08:12.168  INFO 16596 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-22 02:08:12.169  INFO 16596 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+Process finished with exit code 0
