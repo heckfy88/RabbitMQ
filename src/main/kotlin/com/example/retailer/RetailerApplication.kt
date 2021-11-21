@@ -21,12 +21,10 @@ class RetailerApplication {
 	fun publisher() = DistributorPublisherImpl()
 
 	@Bean
-	fun topicExchange()
-		= TopicExchange("distributor_exchange", true, false)
+	fun topicExchange() = TopicExchange("distributor_exchange", true, false)
 
 	@Bean
-	fun queue()
-		= Queue("retailer", false, false, true)
+	fun queue() = Queue("retailer", false, false, true)
 
 	@Bean
 	fun bindingRetailer(topicExchange: TopicExchange, queue: Queue
